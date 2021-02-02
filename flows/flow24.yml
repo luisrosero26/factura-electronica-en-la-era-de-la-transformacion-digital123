@@ -1,0 +1,27 @@
+completion_text: |-
+  <p>Muchas Gracias</p>
+description: |-
+  Este curso es muy importante
+next_flow_id: ''
+next_flow_title: ''
+pages:
+- content: |-
+    <p>Este curso es muy importante,&nbsp;Este curso es muy importante,&nbsp;Este curso es muy importante<br></p>
+  id: intro
+  title: Inicio
+  type: Page
+- content: |-
+    <p>Este curso es muy importanteEste curso es muy importanteEste curso es muy importante<br></p>
+  id: page55
+  title: Marketing Digital
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Marketing Digital
