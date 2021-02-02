@@ -1,0 +1,14 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow24
+    next_flow: null
+    pages:
+    - flow_id: page55
+      title: Marketing Digital
+    title: Marketing Digital
+    title_next_flow: ''
+  id: welcome
+  introduction: <p>Este curso es para aprender de Impuestos</p>
+  rules: []
+  title: "FACTURA ELECTR\xD3NICA EN LA ERA DE LA TRANSFORMACI\xD3N DIGITAL"
