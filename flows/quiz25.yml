@@ -1,0 +1,56 @@
+completion_text: |-
+  <p>Muchas Gracias</p>
+description: |-
+  Este curso es muy importante
+groups:
+- id: intro
+  pages:
+  - content: "<p>Este curso es muy importante<br></p> "
+    id: welcome
+    title: Marketing Digital
+    type: Page
+- id: quiz_start
+  pages:
+  - answers:
+    - <plain>Por email
+    - <plain>Desarrollo de un plan
+    id: quizquestion56
+    prompt: ''
+    title: Marketing Digital
+    type: TextQuestion
+    value: 50.0
+  - answers:
+    - "<plain>Preparaci\xF3n del presupuesto"
+    - "<plain>Tienen una tasa de clics m\xE1s alta"
+    - "<plain>Personas que han empezado el proceso de suscripci\xF3n pero no lo han\
+      \ terminado"
+    id: quizquestion57
+    prompt: ''
+    title: "M\xF3dulo II. Primeros contactos con el cliente"
+    type: TextQuestion
+    value: 50.0
+  shuffle: false
+rules:
+  access:
+  - permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz25
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2021-02-18 21:45:48+00:00
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: Marketing Digital
